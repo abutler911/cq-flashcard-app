@@ -209,32 +209,70 @@ const questions = [
   {
     questionNumber: 29,
     question: "What is checked as part of the pre-takeoff check?",
-    answer: "The representative surface from a vantage point in the aircraft that the PIC determines will give an accurate indication of the condition of the aircraft.",
+    answer:
+      "The representative surface from a vantage point in the aircraft that the PIC determines will give an accurate indication of the condition of the aircraft.",
     category: ["antiice/deice-procedures", "all-categories"],
   },
   {
     questionNumber: 30,
-    question: "What should the crew do it they are unable to determine that the representative surface is free from frozen contaminants?",
+    question:
+      "What should the crew do it they are unable to determine that the representative surface is free from frozen contaminants?",
     answer: "The aircraft must be deiced again. ",
     category: ["antiice/deice-procedures", "all-categories"],
   },
   {
     questionNumber: 31,
     question: "When is a pre-takeoff contamination check conducted?",
-    answer: "After the HOT has been exceeded or the HOT is no longer valid due to changing weather conditions, or in heavy snow - to ensure the wings, control surface and other critical surfaces are free of all frozen contaminants.",
+    answer:
+      "After the HOT has been exceeded or the HOT is no longer valid due to changing weather conditions, or in heavy snow - to ensure the wings, control surface and other critical surfaces are free of all frozen contaminants.",
     category: ["antiice/deice-procedures", "all-categories"],
   },
   {
     questionNumber: 32,
-    question: "Is there ever a case when the aircraft can depart with frozen contaminants on any of the critical surfaces?",
+    question:
+      "Is there ever a case when the aircraft can depart with frozen contaminants on any of the critical surfaces?",
     answer: "No.",
     category: ["antiice/deice-procedures", "all-categories"],
   },
   {
-    questionNumber: ,
+    questionNumber: 33,
+    question:
+      "When powering up the aircraft, what minimum voltage is required? When would you need to perform the SOPM charging procedure?",
+    answer: "22.5 volts; if the voltage is between 21V-22V.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 34,
+    question:
+      "After the EICAS is powered, how long must we wait before APU start?",
+    answer:
+      "After verifying there are no fire protection fail messages; 30 seconds after EICAS is energized.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 35,
+    question:
+      "Can takeoff/landing occur with the FUEL IMBALANCE EICAS message displayed?",
+    answer: "Yes, as long as the imbalance is not more than 794lbs.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 36,
+    question: "What is the minimum fuel tank temperature?",
+    answer: "-37 degrees Celsius",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 37,
+    question: "What is the starter cranking limit for start attempts 1 and 2?",
+    answer: "90 seconds",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 38,
     question: "",
     answer: "",
-    category: ["calculate-performance-with-TLR", "all-categories"],
+    category: ["limitations", "all-categories"],
   },
 ];
 
