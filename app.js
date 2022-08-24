@@ -165,8 +165,39 @@ const questions = [
   },
   {
     questionNumber: 23,
-    question: "",
-    answer: "",
+    question:
+      "What should the crew use to determine precipitation intensities in order to accurately establish a HOT?",
+    answer:
+      "Official weather observations, tables from the GDPM should only be used in the absence of intensities listed in the official observations.",
+    category: ["antiice/deice-procedures", "all-categories"],
+  },
+  {
+    questionNumber: 24,
+    question:
+      "Can the HOT be used as the sole determinant that the aircraft critical surfaces are free of frozen contaminants?",
+    answer:
+      "No, several pre-takeoff checks may be required to determine the condition of the aircraft prior to takeoff.",
+    category: ["antiice/deice-procedures", "all-categories"],
+  },
+  {
+    questionNumber: 25,
+    question:
+      "What are two factors that influence the effectiveness of deicing/anti-icing fluid?",
+    answer:
+      "Change in precip type, intensity, or moisture content; change in ambient and aircraft skin temp; position of aircraft relative to the exhaust or prop wash of another aircraft; change in wind direction and velocity.",
+    category: ["antiice/deice-procedures", "all-categories"],
+  },
+  {
+    questionNumber: 26,
+    question:
+      "Can parking in the proximity of another aircraft's jet wash blow the deice/anti-ice fluid off the wings, rendering the HOT invalid or the fluid ineffective?",
+    answer: "Yes",
+    category: ["antiice/deice-procedures", "all-categories"],
+  },
+  {
+    questionNumber: 27,
+    question: "List two precipitation types that HOTsdo not exist for.",
+    answer: "Heavy snow, Ice pellets, Moderate to heavy freezing rain, Hail",
     category: ["antiice/deice-procedures", "all-categories"],
   },
 ];
