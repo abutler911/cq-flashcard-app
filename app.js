@@ -219,6 +219,7 @@ let currentQuestion = 0;
 //Options
 const randomCheckbox = document.getElementById("randomize");
 
+//Event handlers
 answerButton.addEventListener("click", () => {
   answer.classList.toggle("hidden");
 });
@@ -227,13 +228,31 @@ nextButton.addEventListener("click", () => {
   nextQuestion();
 });
 
+previousButton.addEventListener("click", () => {
+  previousQuestion();
+});
+
+const previousQuestion = function (arr) {
+  answer.classList.add("hidden");
+  currentQuestion = currentQuestion - 1;
+  if (currentQuestion < 0) {
+    currentQuestion = questions.length - 1;
+  }
+  questionNumber.innerText = `Question ${
+    questions[currentQuestion].questionNumber
+  } of ${questions.length - 1}`;
+  question.innerText = questions[currentQuestion].question;
+  category.innerText = `Category: ${questions[currentQuestion].category[0]}`;
+  answer.innerText = questions[currentQuestion].answer;
+};
+
 const nextQuestion = function (arr) {
   answer.classList.add("hidden");
 
   if (currentQuestion !== questions.length) {
     questionNumber.innerText = `Question ${
-      questions[currentQuestion].questionNumber + 1
-    } of ${questions.length}`;
+      questions[currentQuestion].questionNumber
+    } of ${questions.length - 1}`;
     question.innerText = questions[currentQuestion].question;
     category.innerText = `Category: ${questions[currentQuestion].category[0]}`;
     answer.innerText = questions[currentQuestion].answer;
