@@ -200,6 +200,42 @@ const questions = [
     answer: "Heavy snow, Ice pellets, Moderate to heavy freezing rain, Hail",
     category: ["antiice/deice-procedures", "all-categories"],
   },
+  {
+    questionNumber: 28,
+    question: "When is a pre-takeoff check conducted?",
+    answer: "Within the holdover time and just prior to takeoff.",
+    category: ["antiice/deice-procedures", "all-categories"],
+  },
+  {
+    questionNumber: 29,
+    question: "What is checked as part of the pre-takeoff check?",
+    answer: "The representative surface from a vantage point in the aircraft that the PIC determines will give an accurate indication of the condition of the aircraft.",
+    category: ["antiice/deice-procedures", "all-categories"],
+  },
+  {
+    questionNumber: 30,
+    question: "What should the crew do it they are unable to determine that the representative surface is free from frozen contaminants?",
+    answer: "The aircraft must be deiced again. ",
+    category: ["antiice/deice-procedures", "all-categories"],
+  },
+  {
+    questionNumber: 31,
+    question: "When is a pre-takeoff contamination check conducted?",
+    answer: "After the HOT has been exceeded or the HOT is no longer valid due to changing weather conditions, or in heavy snow - to ensure the wings, control surface and other critical surfaces are free of all frozen contaminants.",
+    category: ["antiice/deice-procedures", "all-categories"],
+  },
+  {
+    questionNumber: 32,
+    question: "Is there ever a case when the aircraft can depart with frozen contaminants on any of the critical surfaces?",
+    answer: "No.",
+    category: ["antiice/deice-procedures", "all-categories"],
+  },
+  {
+    questionNumber: ,
+    question: "",
+    answer: "",
+    category: ["calculate-performance-with-TLR", "all-categories"],
+  },
 ];
 
 //Divs
