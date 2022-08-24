@@ -7,14 +7,14 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1570710891163-6d3b5c47248b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
     background-size: cover;
     background-position: center;
-    /* text-shadow: 0 0.05rem 0.1rem rgba(95, 95, 95, 0.5); */
-    /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5); */
 }
 
 header {
     margin-top: 30px;
     margin-bottom: 20px;
     color: white;
+
+
 }
 
 .title {
@@ -97,6 +97,30 @@ fieldset {
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 5px;
 }
 
+#randomButton {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #c24d2c;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 5px;
+    border: none;
+    height: 2.5em;
+}
+
+#select-category {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #c24d2c;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 5px;
+    border: none;
+    height: 2.5em;
+}
+
 .hidden {
     visibility: hidden;
 }
@@ -106,4 +130,16 @@ fieldset {
         font-size: 2em;
         padding: 10px;
     }
+
+    #randomButton {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #select-category {
+        width: 100%;
+        margin-top: 5px;
+
+    }
+
 }

@@ -22,24 +22,54 @@
   </head>
   <body>
     <header>
-      <div class="container-sm-8">
-        <h1 class="text-center title">2022 ERJ CQ STUDY APP</h1>
-        <link rel="icon" type="image/x-icon" href="/favicon_io/favicon.ico" />
-      </div>
       <div class="container">
-        <div class="row">
-          <div class="col-sm-6 offset-sm-3">
-            <fieldset>
-              <div>
-                <input type="checkbox" id="randomize" name="randomize" />
-                <label for="randomize">Randomize Questions</label>
-              </div>
-            </fieldset>
+        <div class="row align-items-center">
+          <div class="col-sm-4">
+            <h1 class="text-center title">2022 Continuing Qualification</h1>
+            <h2 class="text-center mb-5">ERJ Study Cards</h2>
+            <link
+              rel="icon"
+              type="image/x-icon"
+              href="/favicon_io/favicon.ico"
+            />
+          </div>
+          <div class="col-sm-4">
+            <button class="btn btn-secondary" id="randomButton">
+              Randomize!
+            </button>
+          </div>
+
+          <div class="col-sm-4">
+            <select
+              class="btn btn-info"
+              id="select-category"
+              name="select-category"
+            >
+              <option value="all-categories" selected>All Categories</option>
+              <option value="external-inspection">External Inspection</option>
+              <option value="deice-antiice-procedures">
+                De-Ice / Anti-Ice Procedures
+              </option>
+              <option value="calculate-performance">
+                Calculate Performance with TLR
+              </option>
+              <option value="limitations">Limitations</option>
+              <option value="fuel-planning">Fuel Planning</option>
+              <option value="memory-items">Memory Items</option>
+              <option value="fom-chap-3">FOM Chapter 3 Items</option>
+              <option value="flite-view-users-guide">
+                Flite View User Guide
+              </option>
+              <option value="fom-chap-6">FOM Chapter 6 Items</option>
+              <option value="erj-sopm">ERJ SOPM</option>
+              <label for="select-category">Select Category</label>
+            </select>
           </div>
         </div>
       </div>
+    </header>
 
-      <!--
+    <!--
               <div>
                 <select
                   class="btn btn-info"
@@ -80,7 +110,7 @@
           </div>
         </div>
       </div> -->
-    </header>
+
     <div class="container">
       <div class="row">
         <div class="col-md-6 offset-md-3">
