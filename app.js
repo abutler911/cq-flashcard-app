@@ -106,35 +106,35 @@ const questions = [
     question:
       "What checklist must be completed prior to starting the deice/anti-ice process?",
     answer: "The BEFORE START CHECKLIST",
-    category: ["antiice-deice-procedures", "all-categories"],
+    category: ["antiice/deice-procedures", "all-categories"],
   },
   {
     questionNumber: 15,
     question:
       "What is used in lieu of the normal procedures checklist from the start of the deice/anti-ice process through the BEFORE TAKEOFF CHECKLIST?",
     answer: "ERJ Deice/Anti-ice Checklist",
-    category: ["antiice-deice-procedures", "all-categories"],
+    category: ["antiice/deice-procedures", "all-categories"],
   },
   {
     questionNumber: 16,
     question:
       "What is the guidance the checklist provides regarding running the APU during deicing procedures?",
     answer: "It should remain off.",
-    category: ["antiice-deice-procedures", "all-categories"],
+    category: ["antiice/deice-procedures", "all-categories"],
   },
   {
     questionNumber: 17,
     question:
       "Are there different deice procedures for engines off vs. engines running?",
     answer: "Yes",
-    category: ["antiice-deice-procedures", "all-categories"],
+    category: ["antiice/deice-procedures", "all-categories"],
   },
   {
     questionNumber: 18,
     question:
       "Are the deice/anti-ice communication elements required? Where are they found?",
     answer: "Yes. In the COMMUNICATION ELEMENTS TABLE",
-    category: ["antiice-deice-procedures", "all-categories"],
+    category: ["antiice/deice-procedures", "all-categories"],
   },
   {
     questionNumber: 19,
@@ -142,32 +142,32 @@ const questions = [
       "List two required communication elements from the COMMUNICATIONS ELEMENTS TABLE.",
     answer:
       "Type of fluid; Percentage of fluid; Time of beginning of final deice step; Deicing complete.",
-    category: ["antiice-deice-procedures", "all-categories"],
+    category: ["antiice/deice-procedures", "all-categories"],
   },
   {
     questionNumber: 20,
     question: "When does the holdover time (HOT) begin?",
     answer: "When the final application of fluid commences.",
-    category: ["antiice-deice-procedures", "all-categories"],
+    category: ["antiice/deice-procedures", "all-categories"],
   },
   {
     questionNumber: 21,
     question: "What does the HOT represent?",
     answer:
       "A range of time in which the fluid provides acceptable protection for the varying precipitation intensities.",
-    category: ["antiice-deice-procedures", "all-categories"],
+    category: ["antiice/deice-procedures", "all-categories"],
   },
   {
     questionNumber: 22,
     question: "In a HOT table, what do the longer and shorter times represent?",
     answer: "Heavier vs. lighter precipitation.",
-    category: ["antiice-deice-procedures", "all-categories"],
+    category: ["antiice/deice-procedures", "all-categories"],
   },
   {
     questionNumber: 23,
     question: "",
     answer: "",
-    category: ["antiice-deice-procedures", "all-categories"],
+    category: ["antiice/deice-procedures", "all-categories"],
   },
 ];
 

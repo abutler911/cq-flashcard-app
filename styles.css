@@ -24,9 +24,9 @@ header {
 
 fieldset {
     margin: 0 auto;
-    border-radius: 5px;
-    border: 1px solid white;
-    padding: 10px;
+    /* border-radius: 5px; */
+    /* border: 1px solid white; */
+    /* padding: 10px; */
     text-align: center;
 }
 
@@ -45,7 +45,7 @@ fieldset {
 
 .card {
     width: 100%;
-    height: 400px;
+    height: 550px;
     margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: rgb(233, 233, 233);
@@ -69,6 +69,10 @@ fieldset {
 .button-container {
     margin-top: 32px;
     width: 100%;
+}
+
+.btn {
+    margin: 5px;
 }
 
 #previous-button, #next-button {
