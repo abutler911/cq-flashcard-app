@@ -10,8 +10,8 @@ body {
 }
 
 header {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     color: #fbf2c4;
 
 
@@ -19,7 +19,7 @@ header {
 
 .title {
     font-size: 5rem;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     color: #fbf2c4;
 }
 
