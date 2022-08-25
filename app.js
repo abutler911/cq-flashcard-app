@@ -508,6 +508,46 @@ let questions = [
     answer: "Direct a go-around.",
     category: ["limitations", "all-categories"],
   },
+  {
+    questionNumber: 74,
+    question:
+      "When would you declare minimum fuel? What does a minimum fuel declaration communicate to ATC?",
+    answer:
+      "Fuel status has reached a state where, upon reaching the destination, the PIC cannot accept any undue delay. This advisory does not reflect an emergency situation.",
+    category: ["fuel-planning", "all-categories"],
+  },
+  {
+    questionNumber: 75,
+    question:
+      "When would you declare emergency fuel? How does the emergency affect your ATC handling?",
+    answer:
+      "While in flight, when determined the remaining fuel supply results in landing with less than 30 minutes of fuel. Emergency aircraft have priority above all others.",
+    category: ["fuel-planning", "all-categories"],
+  },
+  {
+    questionNumber: 76,
+    question: "",
+    answer: "",
+    category: ["fuel-planning", "all-categories"],
+  },
+  {
+    questionNumber: 77,
+    question: "",
+    answer: "",
+    category: ["fuel-planning", "all-categories"],
+  },
+  {
+    questionNumber: 78,
+    question: "",
+    answer: "",
+    category: ["fuel-planning", "all-categories"],
+  },
+  {
+    questionNumber: 79,
+    question: "",
+    answer: "",
+    category: ["fuel-planning", "all-categories"],
+  },
 ];
 
 //Divs
