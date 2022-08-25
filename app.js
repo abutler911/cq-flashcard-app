@@ -319,6 +319,103 @@ let questions = [
     answer: "400 feet AFE.",
     category: ["limitations", "all-categories"],
   },
+  {
+    questionNumber: 46,
+    question: "What is the minimum runway width allowed?",
+    answer: "100 feet",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 47,
+    question:
+      "ATC reports moderate and possibly greater turbulence ahead. What's the turbulent air penetration speed? It is a target or maximum speed?",
+    answer: "Vb 270/.76M (whichever is lower) target speed.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 48,
+    question:
+      "An IDG fails in flight and the QRH instructs you to start the APU. What is the maximum start altitude?",
+    answer: "30,000 feet",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 49,
+    question: "Minimum OAT for APU start and operation?",
+    answer: "-54 degrees Celsius",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 50,
+    question: "Maximum APU operation altitude (after start)?",
+    answer: "33,000 feet",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 51,
+    question: "What is the maximum crosswind (crew limit) for a dry runway?",
+    answer: "38 kts.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 52,
+    question: "What is the maximum crosswind (crew limit) for a wet runway?",
+    answer: "31 kts.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 53,
+    question: "What is the maximum gear extension/retraction/operation speed?",
+    answer: "250 kts.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 54,
+    question: "If flying a CAT II approach, what flap setting is required?",
+    answer: "Flap 5, mandatory.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 55,
+    question: "What is the maximum wiper speed?",
+    answer: "250 kts. ",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 56,
+    question: "True/False - we can use RNAV LP minima?",
+    answer: "False",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 57,
+    question:
+      "When approaching flaps full, what is the go-around flap setting?",
+    answer: "Flap 4",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 58,
+    question:
+      "Can you attempt a go-around after deployment of the thrust reversers?",
+    answer: "No",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 59,
+    question:
+      "True/False - Precision approaches are recommended when available?",
+    answer: "True",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 60,
+    question:
+      "Do the controls and throttles need to be guarded during all phases of the approach and landing when the auto-flight system is engaged? Why?",
+    answer:
+      "Yes. The pilot must be prepared to manually land or initiate a go-around anytime it is necessary.",
+    category: ["limitations", "all-categories"],
+  },
 ];
 
 //Divs
