@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 20px;
     color: #fbf2c4;
 
@@ -19,7 +19,7 @@ header {
 
 .title {
     font-size: 5em;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: #fbf2c4;
 }
 
@@ -39,7 +39,7 @@ header {
 
 .card {
     width: 100%;
-    height: 450px;
+    height: 500px;
     margin: 0 auto;
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
     background-color: rgba(124, 124, 124, 0.9);
