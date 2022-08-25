@@ -416,6 +416,98 @@ let questions = [
       "Yes. The pilot must be prepared to manually land or initiate a go-around anytime it is necessary.",
     category: ["limitations", "all-categories"],
   },
+  {
+    questionNumber: 61,
+    question:
+      "Is it permissible to the the landing lights off while on an approach in IMC if they pose a distraction?",
+    answer: "Yes",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 62,
+    question:
+      "Is it recommended that the PM call out any observed deviations while on an approach?",
+    answer: "No, it is required.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 63,
+    question:
+      "What is the PF's verbal response after immediately correcting a deviation on approach to landing?",
+    answer: "'Correcting'",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 64,
+    question:
+      "What is the PM's deviation callout with a descent rate > 1000 ft/min on approach to landing?",
+    answer: "Sink Rate",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 65,
+    question:
+      "What magnitude of deviation from glide path requires a callout by the PM? What is the SOPM callout?",
+    answer: "> one dot; Glide Path",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 66,
+    question:
+      "When are speed deviation callouts required on approach to landing? What is the callout?",
+    answer:
+      "Target -5 or any speed less than Vref, whichever is higher. The callout is SPEED.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 67,
+    question:
+      "On an approach, what bank angle would be considered a deviation? What is the PM's callout? ",
+    answer: "> 25 degrees, BANK.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 68,
+    question:
+      "What is the responsibility of the PM if the EGPWS fails to make callouts automatically?",
+    answer: "Perform the expected callouts",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 69,
+    question:
+      "It is critical to a safe operation that pilots meet stablized approach criteria by what altitude?",
+    answer: "1000 feet",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 70,
+    question:
+      "What is the maximum speed allowed above target on approach at 1000 feet? What would the PM callout if the PF exceeds this speed?",
+    answer: "+15, SPEED",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 71,
+    question:
+      "What is the latest position on the approach to plan for landing gear down? Is there a planned speed at this position as well?",
+    answer: "By 1500 feet of the FAF whichever occurs first. Yes, 180 kts. ",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 72,
+    question:
+      "What speed is mandatory by 500' on approach to landing? What thrust setting?",
+    answer: "Airspeed within the bug, thrust levers above idle. ",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 73,
+    question:
+      "If any of the planned parameters are not met on the approach at or below 500' AGL, what is the PM required to do?",
+    answer: "Direct a go-around.",
+    category: ["limitations", "all-categories"],
+  },
 ];
 
 //Divs
