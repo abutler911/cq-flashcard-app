@@ -1,4 +1,4 @@
-const questions = [
+let questions = [
   {
     questionNumber: 0,
     question:
@@ -299,7 +299,16 @@ answerButton.addEventListener("click", () => {
 });
 
 nextButton.addEventListener("click", () => {
-  nextQuestion();
+  if (randomCheckbox.checked) {
+    let randomQuestions = randomize(questions);
+    nextQuestion(randomQuestions);
+  } else {
+    let randos = randomize(questions);
+
+    let sorted = randos.sort((a, b) => a.questionNumber - b.questionNumber);
+
+    nextQuestion(sorted);
+  }
 });
 
 previousButton.addEventListener("click", () => {
@@ -322,14 +331,13 @@ const previousQuestion = function (arr) {
 
 const nextQuestion = function (arr) {
   answer.classList.add("hidden");
-
-  if (currentQuestion !== questions.length) {
+  if (currentQuestion !== arr.length) {
     questionNumber.innerText = `Question ${
-      questions[currentQuestion].questionNumber
-    } of ${questions.length - 1}`;
-    question.innerText = questions[currentQuestion].question;
-    category.innerText = `Category: ${questions[currentQuestion].category[0]}`;
-    answer.innerText = questions[currentQuestion].answer;
+      arr[currentQuestion].questionNumber
+    } of ${arr.length - 1}`;
+    question.innerText = arr[currentQuestion].question;
+    category.innerText = `Category: ${arr[currentQuestion].category[0]}`;
+    answer.innerText = arr[currentQuestion].answer;
     currentQuestion++;
   } else {
     currentQuestion = 0;
@@ -337,13 +345,10 @@ const nextQuestion = function (arr) {
 };
 
 const randomize = function (arr) {
-  if (randomCheckbox.checked === true) {
-    for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [arr[i], arr[j]] = [arr[j], arr[i]];
-    }
-    console.log(arr);
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
   }
+  let randomQuestionArray = arr;
+  return randomQuestionArray;
 };
-
-nextQuestion();
