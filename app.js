@@ -196,7 +196,7 @@ let questions = [
   },
   {
     questionNumber: 27,
-    question: "List two precipitation types that HOTsdo not exist for.",
+    question: "List two precipitation types that HOTs do not exist for.",
     answer: "Heavy snow, Ice pellets, Moderate to heavy freezing rain, Hail",
     category: ["antiice/deice-procedures", "all-categories"],
   },
@@ -270,8 +270,53 @@ let questions = [
   },
   {
     questionNumber: 38,
-    question: "",
-    answer: "",
+    question: "Minimum time between starts 1 and 2?",
+    answer: "10 Seconds",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 39,
+    question: "How do the started cranking limits change in flight?",
+    answer:
+      "For in-flight starts, the maximum cumulative starter run time per start attempt is 120 seconds. Motoring plus start time.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 40,
+    question: "During and engine start, we must see N1 rotation by what N2?",
+    answer: "Positive N1 by 50% N2",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 41,
+    question:
+      "A taxiway us NOTAM'd closed to aircraft with a wingspan over 100'. What is the wingspan of the ERJ-175?",
+    answer: "Wingspan of 93 feet 11 inches.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 42,
+    question: "For takeoff, what is the maximum brake temperature?",
+    answer: "Must be in the green.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 43,
+    question: "What is the maximum tailwind component allowed for takeoff?",
+    answer: "15 kts.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 44,
+    question:
+      "Are static takeoffs recommended with a crosswind component greater than 25 kts? Why?",
+    answer: "No. Due to the possibility of a compressor stall.",
+    category: ["limitations", "all-categories"],
+  },
+  {
+    questionNumber: 45,
+    question: "After takeoff, when can the autopilot be engaged?",
+    answer: "400 feet AFE.",
     category: ["limitations", "all-categories"],
   },
 ];
@@ -292,6 +337,7 @@ let currentQuestion = 0;
 
 //Options
 const randomCheckbox = document.getElementById("randomize");
+const selectCategory = document.getElementById("select-category");
 
 //Event handlers
 answerButton.addEventListener("click", () => {
@@ -331,6 +377,7 @@ const previousQuestion = function (arr) {
 
 const nextQuestion = function (arr) {
   answer.classList.add("hidden");
+
   if (currentQuestion !== arr.length) {
     questionNumber.innerText = `Question ${
       arr[currentQuestion].questionNumber
@@ -342,6 +389,13 @@ const nextQuestion = function (arr) {
   } else {
     currentQuestion = 0;
   }
+  console.log(arr[currentQuestion].category[0]);
+  console.log(selectCategory.value);
+  if (selectCategory.value === arr[currentQuestion].category[0]) {
+    console.log("Its a match!");
+  } else {
+    console.log("No match");
+  }
 };
 
 const randomize = function (arr) {
@@ -352,3 +406,5 @@ const randomize = function (arr) {
   let randomQuestionArray = arr;
   return randomQuestionArray;
 };
+
+console.log(selectCategory);
