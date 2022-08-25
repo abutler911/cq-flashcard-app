@@ -486,13 +486,6 @@ const nextQuestion = function (arr) {
   } else {
     currentQuestion = 0;
   }
-  console.log(arr[currentQuestion].category[0]);
-  console.log(selectCategory.value);
-  if (selectCategory.value === arr[currentQuestion].category[0]) {
-    console.log("Its a match!");
-  } else {
-    console.log("No match");
-  }
 };
 
 const randomize = function (arr) {
@@ -504,4 +497,4 @@ const randomize = function (arr) {
   return randomQuestionArray;
 };
 
-console.log(selectCategory);
+nextQuestion(questions);
