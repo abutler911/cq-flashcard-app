@@ -576,9 +576,39 @@ let questions = [
   },
   {
     questionNumber: 83,
-    question: "",
-    answer: "",
+    question:
+      "You're flying in cruise at FL350 when you hear the triple chime and see CABIN ALTITUDE HI on the EICAS. What do you do?",
+    answer: "OXYGEN MASKS...DON, 100%; CREW COMMUNICATION ... ESTABLISH",
     category: ["memory-items", "all-categories"],
+  },
+  {
+    questionNumber: 84,
+    question:
+      "You're flying in cruise when the autopilot disconnects and the airplane begins to pitch up, in spite of nose-down control pressure. What do you do?",
+    answer:
+      "A/P DISC SWITCH ... PRESS AND HOLD; PITCH TRIM SYS 1 AND SYS 2 CUTOUT BUTTONS ... PUSH IN",
+    category: ["memory-items", "all-categories"],
+  },
+  {
+    questionNumber: 85,
+    question:
+      "You're flying at cruise when the autopilot disconnects. After taking the controls, you realize the aileron controls are jammed. What do you do?",
+    answer: "AILERON DISCONNECT HANDLE...PULL",
+    category: ["memory-items", "all-categories"],
+  },
+  {
+    questionNumber: 86,
+    question:
+      "The majority of commercial aviation accidents have been caused by what?",
+    answer: "Human factors. Usually related to a breakdown in communication.",
+    category: ["fom-chap-3", "all-categories"],
+  },
+  {
+    questionNumber: 87,
+    question: "What four principle CRM skills is Skywest choosing to focus on?",
+    answer:
+      "Communication; Workload Management; Situational Awareness; Saturation Management",
+    category: ["fom-chap-3", "all-categories"],
   },
 ];
 
