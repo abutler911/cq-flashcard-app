@@ -18,24 +18,18 @@ header {
 }
 
 .title {
-    font-size: 5em;
+    font-size: 5rem;
     margin-bottom: 5px;
     color: #fbf2c4;
 }
 
+.subtitle {
+    font-size: 1rem;
+}
 
 #select-category {
-    margin-top: 15px;
+    margin-top: 5px;
 }
-
-#start-button {
-    width: 50%;
-    margin-top: 15px;
-    color: rgba(255, 255, 255, 1);
-    font-size: 1.3em;
-    margin-left: 25%;
-}
-
 
 .card {
     width: 100%;
@@ -52,7 +46,7 @@ header {
 }
 
 .card-subtitle {
-    font-size: 0.9em;
+    font-size: 0.9rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.7);
 }
@@ -78,7 +72,7 @@ header {
     margin: 10px;
     background-color: #008585;
     /* border: 1px solid black; */
-    font-size: 1.3em;
+    font-size: 1.3rem;
     color: white;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 5px;
@@ -89,7 +83,7 @@ header {
     margin: 10px;
     background-color: #c7522a;
     /* border: 1px solid black; */
-    font-size: 1.5em;
+    font-size: 1.3rem;
     color: white;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 5px;
@@ -104,7 +98,7 @@ header {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 5px;
     border: none;
-    height: 2.5em;
+    height: 2.5rem;
 }
 
 #select-category {
@@ -116,7 +110,7 @@ header {
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 5px;
     border: none;
-    height: 2.5em;
+    height: 2.5rem;
 }
 
 .hidden {
@@ -125,7 +119,7 @@ header {
 
 @media screen and (max-width: 600px) {
     .title {
-        font-size: 2em;
+        font-size: 1.7rem;
         padding: 10px;
     }
 
