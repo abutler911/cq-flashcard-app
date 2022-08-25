@@ -12,7 +12,7 @@ body {
 header {
     margin-top: 5px;
     margin-bottom: 10px;
-    color: #fbf2c4;
+    color: #cfd186;
 
 
 }
@@ -24,7 +24,8 @@ hr {
 .title {
     font-size: 5rem;
     margin-bottom: 2px;
-    color: #fbf2c4;
+    color: #cfd186;
+    font-weight: 800;
 }
 
 .subtitle {
@@ -34,6 +35,8 @@ hr {
 #select-category {
     margin-top: 5px;
 }
+
+
 
 .card {
     width: 100%;
@@ -74,7 +77,7 @@ hr {
 #previous-button, #next-button {
     width: 100%;
     margin: 10px;
-    background-color: #008585;
+    background-color: #5b8c5a;
     /* border: 1px solid black; */
     font-size: 1.3rem;
     color: white;
@@ -85,7 +88,7 @@ hr {
 #answer-button {
     width: 100%;
     margin: 10px;
-    background-color: #c7522a;
+    background-color: #e3655b;
     /* border: 1px solid black; */
     font-size: 1.3rem;
     color: white;
@@ -96,7 +99,7 @@ hr {
 #randomButton {
     width: 50%;
     margin: 0 auto;
-    background-color: #c7522a;
+    background-color: #e3655b;
     font-size: 1em;
     color: white;
     border-radius: 10px;
@@ -108,7 +111,7 @@ hr {
 #select-category {
     width: 50%;
     margin: 0 auto;
-    background-color: #c24d2c;
+    background-color: #e3655b;
     font-size: 1em;
     color: white;
     border-radius: 10px;
