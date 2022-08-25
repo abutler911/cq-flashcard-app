@@ -12,7 +12,7 @@ body {
 header {
     margin-top: 30px;
     margin-bottom: 20px;
-    color: white;
+    color: #fbf2c4;
 
 
 }
@@ -20,6 +20,7 @@ header {
 .title {
     font-size: 5em;
     margin-bottom: 20px;
+    color: #fbf2c4;
 }
 
 
@@ -30,7 +31,7 @@ header {
 #start-button {
     width: 50%;
     margin-top: 15px;
-    color: white;
+    color: rgba(255, 255, 255, 1);
     font-size: 1.3em;
     margin-left: 25%;
 }
@@ -41,23 +42,24 @@ header {
     height: 600px;
     margin: 0 auto;
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
-    background-color: rgb(233, 233, 233);
+    background-color: rgba(124, 124, 124, 0.9);
+    border: 1px solid black;
 }
 
 .card-title {
-    font-size: 1.4em;
+    color: black;
     font-weight: 600;
 }
 
 .card-subtitle {
     font-size: 0.9em;
-
     font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .card-text {
-    font-size: 1em;
-    color: green;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 1);
     font-weight: 700;
 
 }
@@ -74,7 +76,7 @@ header {
 #previous-button, #next-button {
     width: 100%;
     margin: 10px;
-    background-color: #3e4a61;
+    background-color: #008585;
     /* border: 1px solid black; */
     font-size: 1.3em;
     color: white;
@@ -85,7 +87,7 @@ header {
 #answer-button {
     width: 100%;
     margin: 10px;
-    background-color: #c24d2c;
+    background-color: #c7522a;
     /* border: 1px solid black; */
     font-size: 1.5em;
     color: white;
@@ -96,7 +98,7 @@ header {
 #randomButton {
     width: 50%;
     margin: 0 auto;
-    background-color: #c24d2c;
+    background-color: #c7522a;
     font-size: 1em;
     color: white;
     border-radius: 10px;
