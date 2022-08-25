@@ -526,27 +526,59 @@ let questions = [
   },
   {
     questionNumber: 76,
-    question: "",
-    answer: "",
+    question:
+      "Plan holding time based on fuel quantity, landing fuel. How long can you hold?",
+    answer: "Whiteboard problem.",
     category: ["fuel-planning", "all-categories"],
   },
   {
     questionNumber: 77,
-    question: "",
-    answer: "",
+    question: "Diversion fuel planning. ",
+    answer: "Study holding fuel, diversion and fuel calculations.",
     category: ["fuel-planning", "all-categories"],
   },
   {
     questionNumber: 78,
-    question: "",
-    answer: "",
+    question:
+      "What can cause the FMS landing fuel calculation to be inaccurate?",
+    answer:
+      "Arrivals with long downwinds; wrong runway loaded into FMS; Flying below the filed altitude or above the TAS as programmed in the prog pages; Winds aloft don't match forecast/FMS inputs; EFC in hold page different than actual hold exit time.",
     category: ["fuel-planning", "all-categories"],
   },
   {
     questionNumber: 79,
+    question:
+      "You're sitting at the gate when a BATT 1 OVERTEMP warning message appears. What do you do? How do you verify this action was effective?",
+    answer: "ASSOCIATED BATTERY....OFF; Verify using the QRC.",
+    category: ["memory-items", "all-categories"],
+  },
+  {
+    questionNumber: 80,
+    question:
+      "You're starting an engine and notice the ITT is rapidly rising toward the ITT redline. What temp is redline and what do you do?",
+    answer: "815 degrees; AFFECTED ENGINE START/STOP SELECTOR ... STOP",
+    category: ["memory-items", "all-categories"],
+  },
+  {
+    questionNumber: 81,
+    question:
+      "On taxi to the runway, the airplane begins veering to the left aggressively. What might you do? (STEERING RUNWAY memory item)",
+    answer:
+      "STEER DISC SWITCH ... PRESS, steer the airplane using differential braking and rudder.",
+    category: ["memory-items", "all-categories"],
+  },
+  {
+    questionNumber: 82,
+    question:
+      "Shortly after takeoff the cockpit starts filling with smoke. What do you do? (SMOKE EVACUATION memory item)",
+    answer: "OXYGEN MASKS ... DON, EMER; EMER CREW COMMUNICATION ... ESTABLISH",
+    category: ["memory-items", "all-categories"],
+  },
+  {
+    questionNumber: 83,
     question: "",
     answer: "",
-    category: ["fuel-planning", "all-categories"],
+    category: ["memory-items", "all-categories"],
   },
 ];
 
