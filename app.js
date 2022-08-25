@@ -610,6 +610,45 @@ let questions = [
       "Communication; Workload Management; Situational Awareness; Saturation Management",
     category: ["fom-chap-3", "all-categories"],
   },
+  {
+    questionNumber: 88,
+    question:
+      "List three of the five CRM issues that are included in nearly every Skywest ASAP report.",
+    answer:
+      "Unable to manage distractions; Inability to recognize task saturation and level; Non-specific WANT briefings that exclude key arrival procedures; briefings exclude items that lead to a shared mental model; not holding other crewmembers accountable to the SOPM.",
+    category: ["fom-chap-3", "all-categories"],
+  },
+  {
+    questionNumber: 89,
+    question:
+      "The FOM lists four tools to mitigate distraction, explain two of them.",
+    answer:
+      "Recognize a state of becoming distracted, verbalize it and request help; Use task prioritization to determine what can be delayed for a later time; Use good planning during low workload periods; First officers maintain readiness to assume delegated responsibilities.",
+    category: ["fom-chap-3", "all-categories"],
+  },
+  {
+    questionNumber: 90,
+    question:
+      "Does the FOM require briefings to include anticipated distractions along with a plan of how to manage this threat? If so, whose responsibility is it? ",
+    answer:
+      "Yes. The captain is responsible to brief anticipated distractions. Yes, your evaluator will be putting special emphasis on your mitigation strategies.",
+    category: ["fom-chap-3", "all-categories"],
+  },
+  {
+    questionNumber: 91,
+    question:
+      "What is tunneling and how does it contribute to a loss of situational awareness?",
+    answer:
+      "Under stress, a pilot may focus on a single flight deck indicator and not notice other indications also relevant to the situation.",
+    category: ["fom-chap-3", "all-categories"],
+  },
+  {
+    questionNumber: 92,
+    question: "What CRM skill is severely diminished during tunneling?",
+    answer:
+      "Situational awareness. Vigilance and problem identification lapses and ability to detect and manage threats is reduced.",
+    category: ["fom-chap-3", "all-categories"],
+  },
 ];
 
 //Divs
