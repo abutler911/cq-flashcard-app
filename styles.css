@@ -17,6 +17,10 @@ header {
 
 }
 
+hr {
+    color: rgba(255, 255, 255);
+}
+
 .title {
     font-size: 5rem;
     margin-bottom: 2px;
