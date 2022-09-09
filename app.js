@@ -667,11 +667,23 @@ let currentQuestion = 0;
 
 //Options
 const randomCheckbox = document.getElementById("randomize");
+const hideAnswers = document.getElementById("hideAnswers");
 const selectCategory = document.getElementById("select-category");
 
 //Event handlers
 answerButton.addEventListener("click", () => {
-  answer.classList.toggle("hidden");
+  answer.classList.remove("hidden");
+});
+
+previousButton.addEventListener("click", () => {
+  if (randomCheckbox.checked) {
+    let randomQuestions = randomize(questions);
+    previousQuestion(randomQuestions);
+  } else {
+    let randos = randomize(questions);
+    let sorted = randos.sort((a, b) => a.questionNumber - b.questionNumber);
+    previousQuestion(sorted);
+  }
 });
 
 nextButton.addEventListener("click", () => {
@@ -680,19 +692,19 @@ nextButton.addEventListener("click", () => {
     nextQuestion(randomQuestions);
   } else {
     let randos = randomize(questions);
-
     let sorted = randos.sort((a, b) => a.questionNumber - b.questionNumber);
-
     nextQuestion(sorted);
   }
 });
 
-previousButton.addEventListener("click", () => {
-  previousQuestion();
-});
-
 const previousQuestion = function (arr) {
-  answer.classList.add("hidden");
+  // answer.classList.add("hidden");
+  if (hideAnswers.checked) {
+    answer.classList.add("hidden");
+  } else if (hideAnswers.checked === false) {
+    answer.classList.remove("hidden");
+  }
+
   currentQuestion = currentQuestion - 1;
   if (currentQuestion < 0) {
     currentQuestion = questions.length - 1;
@@ -706,7 +718,11 @@ const previousQuestion = function (arr) {
 };
 
 const nextQuestion = function (arr) {
-  answer.classList.add("hidden");
+  if (hideAnswers.checked) {
+    answer.classList.add("hidden");
+  } else if (hideAnswers.checked === false) {
+    answer.classList.remove("hidden");
+  }
 
   if (currentQuestion !== arr.length) {
     questionNumber.innerText = `Question ${
@@ -730,4 +746,4 @@ const randomize = function (arr) {
   return randomQuestionArray;
 };
 
-nextQuestion(questions);
+// nextQuestion(questions);

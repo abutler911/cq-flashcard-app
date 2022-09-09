@@ -32,7 +32,7 @@
               href="/favicon_io/favicon.ico"
             />
           </div>
-          <div class="col-sm-4 text-center mb-3 random-checkbox">
+          <div class="col-sm-4 text-start mb-3 random-checkbox">
             <input
               type="checkbox"
               id="randomize"
@@ -41,6 +41,18 @@
             />
             <label for="randomize" id="randomize-label"
               >Randomize Questions</label
+            >
+          </div>
+          <div class="col-sm-4 text-start mb-3 hide-checkbox">
+            <input
+              class="text-start"
+              type="checkbox"
+              id="hideAnswers"
+              name="hideAnswers"
+              value="hideAnswers"
+            />
+            <label for="showAnswers" id="hide-answers-label"
+              >Hide Answers</label
             >
           </div>
 
@@ -84,7 +96,7 @@
 
               <h6 class="card-subtitle mb-2" id="category"></h6>
               <hr />
-              <p class="card-text hidden" id="answer"></p>
+              <p class="card-text" id="answer"></p>
             </div>
             <div class="btn-group" role="group" aria-label="Basic example">
               <button type="button" class="btn" id="previous-button">
@@ -101,7 +113,7 @@
     </div>
 
     <footer>
-      <p class="text-center text-muted mt-5">
+      <p class="text-center text-light mt-5">
         Copyright &copy 2022 | EAB Solutions, Inc.
       </p>
     </footer>
