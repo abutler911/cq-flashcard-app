@@ -892,6 +892,8 @@ selectCategory.addEventListener("change", () => {
 });
 
 nextButton.addEventListener("click", () => {
+  // nextQuestion(questions);
+
   if (randomCheckbox.checked) {
     let randomQuestions = randomize(questions);
     nextQuestion(randomQuestions);
@@ -943,35 +945,35 @@ const nextQuestion = function (arr) {
 
   // Selected category logic
 
-  if (selectCategory !== "all-categories") {
-    const results = questions.filter((obj) => {
-      return obj.category.includes(selectCategory.value);
-    });
-    if (hideAnswers.checked) {
-      answer.classList.add("hidden");
-    } else if (hideAnswers.checked === false) {
-      answer.classList.remove("hidden");
-    }
-    if (currentQuestion !== results.length) {
-      questionNumber.innerText = `Question ${
-        results[currentQuestion].questionNumber
-      } of ${results.length - 1}`;
-      question.innerText = results[currentQuestion].question;
-      category.innerText = `Category: ${results[currentQuestion].category[0]}`;
-      answer.innerText = results[currentQuestion].answer;
-      currentQuestion++;
-    } else {
-      currentQuestion = 0;
-    }
-  }
+  // if (selectCategory !== "all-categories") {
+  //   const results = questions.filter((obj) => {
+  //     return obj.category.includes(selectCategory.value);
+  //   });
+  //   if (hideAnswers.checked) {
+  //     answer.classList.add("hidden");
+  //   } else if (hideAnswers.checked === false) {
+  //     answer.classList.remove("hidden");
+  //   }
+  //   if (currentQuestion !== results.length) {
+  //     questionNumber.innerText = `Question ${
+  //       results[currentQuestion].questionNumber
+  //     } of ${results.length - 1}`;
+  //     question.innerText = results[currentQuestion].question;
+  //     category.innerText = `Category: ${results[currentQuestion].category[0]}`;
+  //     answer.innerText = results[currentQuestion].answer;
+  //     currentQuestion++;
+  //   } else {
+  //     currentQuestion = 0;
+  //   }
+  // }
 };
 
-const filterByCategory = function (arr) {
-  const results = questions.filter((obj) => {
-    return obj.category.includes(selectCategory.value);
-  });
-  return results;
-};
+// const filterByCategory = function (arr) {
+//   const results = questions.filter((obj) => {
+//     return obj.category.includes(selectCategory.value);
+//   });
+//   return results;
+// };
 
 const randomize = function (arr) {
   for (let i = arr.length - 1; i > 0; i--) {
@@ -982,4 +984,4 @@ const randomize = function (arr) {
   return randomQuestionArray;
 };
 
-console.log(filterByCategory(questions));
+// console.log(filterByCategory(questions));
