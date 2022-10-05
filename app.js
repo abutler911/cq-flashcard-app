@@ -75,7 +75,7 @@ let questions = [
   {
     questionNumber: 10,
     question:
-      "How many magentic level indicators do we have to inspecton each wing?",
+      "How many magentic level indicators do we have to inspect on each wing?",
     answer: "Three",
     category: ["external-inspection", "all-categories"],
   },
