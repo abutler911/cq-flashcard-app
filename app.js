@@ -872,7 +872,7 @@ let selectCategory = document.getElementById("select-category");
 
 //Event handlers
 answerButton.addEventListener("click", () => {
-  answer.classList.remove("hidden");
+  answer.classList.toggle("hidden");
 });
 
 previousButton.addEventListener("click", () => {
