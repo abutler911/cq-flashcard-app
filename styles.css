@@ -24,11 +24,13 @@ hr {
 }
 
 .title {
-    font-size: 5rem;
+    font-size: 1.2rem;
     margin-bottom: 2px;
     color: #e1b200;
     font-weight: 800;
     outline: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .subtitle {
@@ -41,6 +43,7 @@ hr {
 
 .random-checkbox, .hide-checkbox {
     margin-left: 10px;
+    font-size: 1rem;
 }
 
 .card {
@@ -59,7 +62,7 @@ hr {
 }
 
 .card-subtitle {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.7);
 }
@@ -115,22 +118,22 @@ hr {
 }
 
 #select-category {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     background-color: #d98100;
-    font-size: 1em;
+    font-size: 1rem;
     color: white;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 5px;
     border: none;
-    height: 2.5rem;
+    height: 2rem;
 }
 
 .hidden {
     visibility: hidden;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 1600px) {
     .title {
         font-size: 1.7rem;
         padding: 10px;
@@ -147,4 +150,5 @@ hr {
 
     }
 
-}
+
+} */
