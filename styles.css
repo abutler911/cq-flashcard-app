@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    height: 100vh;
+    /* height: 100vh; */
     font-family: 'Montserrat', sans-serif;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.unsplash.com/photo-1570710891163-6d3b5c47248b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
     background-size: cover;
@@ -29,8 +29,7 @@ hr {
     color: #e1b200;
     font-weight: 800;
     outline: white;
-    display: flex;
-    flex-direction: column;
+
 }
 
 .subtitle {
