@@ -37,6 +37,13 @@ let questions = [
     category: ["external-inspection", "all-categories"],
   },
   {
+    questionNumber: 4,
+    question: "Describe the preflight action for the nose landing gear.",
+    answer:
+      "Wheels and Tire - Condition & clear of ice; Up Lock Hook - UNLOCKED; down-lock springs - CONDITION; Strut/Wheel Well/Doors - CONDIITON and NO LEAKS; Ground locking pin - REMOVED; landing and taxi lights-CONDITION; clean and undamaged.",
+    category: ["external-inspection", "all-categories"],
+  },
+  {
     questionNumber: 5,
     question:
       "What unique piece of equipment resides in the right forward fuselage? Describe the SOPM external preflight of the RAT.",
@@ -233,6 +240,171 @@ let questions = [
       "Is there ever a case when the aircraft can depart with frozen contaminants on any of the critical surfaces?",
     answer: "No.",
     category: ["antiice/deice-procedures", "all-categories"],
+  },
+  {
+    questionNumber: 33,
+    question:
+      "RWY 09, Length=8280, PMTOW=7685, EFP=RT H240, NOTES ** What altitude would the crew initiate the right turn to a heading of 240?",
+    answer:
+      "Climb straight ahead to 1,000' AFE then commence a turn to heading as listed.",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+  {
+    questionNumber: 34,
+    question:
+      "RWY 09, Length=8280, PMTOW=7685, EFP=RT H240, NOTES ** How long should the crew fly this heading?",
+    answer:
+      "Fly this path to safely attain an altitude and position where radar vectors can be provided or a minimum enroute or approach altitude.",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+  {
+    questionNumber: 35,
+    question:
+      "How does a simple special engine failure takeoff path differ from the standard engine failure?",
+    answer:
+      "A turn to a NAVAID or HDG is required prior to reaching 1000' AFE.",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 36,
+    question:
+      "RWY 19L, CLB=V2, VIA=, Reaching=RWY END, OR=D0.9 SFO, TURN=LT OAK FRA=1013, HOLD=STD, -if OAK OTS then LT H050 ** In the event of an engine failure at V1, what speed does the above procedure have you fly?",
+    answer: "Engine failure climb speed of V2",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 37,
+    question:
+      "RWY 19L, CLB=V2, VIA=, Reaching=RWY END, OR=D0.9 SFO, TURN=LT OAK FRA=1013, HOLD=STD, -if OAK OTS then LT H050 ** Why is nothing listed under VIA?",
+    answer:
+      "Procedure is runway heading initially - engine failure heading is only listed if different than runway alignment.",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 38,
+    question:
+      "RWY 19L, CLB=V2, VIA=, Reaching=RWY END, OR=D0.9 SFO, TURN=LT OAK FRA=1013, HOLD=STD, -if OAK OTS then LT H050 ** What is the engine failure turn point for 19L in KSFO?",
+    answer: "End of the runway or 0.9 DME from the SFO VOR.",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 39,
+    question:
+      "RWY 19L, CLB=V2, VIA=, Reaching=RWY END, OR=D0.9 SFO, TURN=LT OAK FRA=1013, HOLD=STD, -if OAK OTS then LT H050 ** When reaching OAK VOR in the above procedure, what should the crew do?",
+    answer: "Hold on the inbound course, standard hold.",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 40,
+    question:
+      "RWY 19L, CLB=V2, VIA=, Reaching=RWY END, OR=D0.9 SFO, TURN=LT OAK FRA=1013, HOLD=STD, -if OAK OTS then LT H050 ** Can a crew legally depart KSFO RWY 19L if the OAK VOR is out of service?",
+    answer: "Yes, an alternate procedure of heading 050 is listed.",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 41,
+    question:
+      "In the FOM's landing performance hierarchy - When reported, what should be used to determine landing performance?",
+    answer: "Rwy CC values",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 42,
+    question:
+      "When RCC's are unavailable, what should be used to determine landing performance?",
+    answer: "Contaminant type and braking action reports.",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 43,
+    question:
+      "If RwyCC values for the same runway are different, i.e. 5/4/3. which RCC value is used when performing a landing assessment?",
+    answer: "3, the most restrictive.",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 44,
+    question: "Are RCCs bi-directional?",
+    answer:
+      "Yes, runways are evaluated to include displaced thresholds and are measured equally in both directions.",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 45,
+    question:
+      "Use the flight release, METAR and planned landing weights. What is the heaviest acheivable landing weight? What is the MIN LDG DIST, FLAPS 5, NO THRUST REVERSER CREDIT?",
+    answer: "ANSWER FROM THE RELEASE",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+  {
+    questionNumber: 46,
+    question: "What does TALPA stand for?",
+    answer: "Takeoff and Landing Performance Assessment",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 47,
+    question: "What is RCAM?",
+    answer:
+      "Runway Condition Assessment Matrix - it is the tool used to assess and report surface conditions when contaminants are present via field condition (FICON). The RCAM maps contamination type and depth to a RCC value.",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 48,
+    question:
+      "What percentage of the runway surface needs to be covered for the runway to be contaminated?",
+    answer: "Greater than 25%",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 49,
+    question: "What does the RCC represent?",
+    answer:
+      "The braking action (BA) expected for a particular contaminant level.",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 50,
+    question: "What are RCCs used for?",
+    answer:
+      "To determine landing distance; used for departures to identify the runway third with the most limiting contaminant; used to determine operating limitations such as crosswind limits with low runway friction.",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 51,
+    question: "A RCC value of 0 represents what type of BA?",
+    answer: "NIL, and results in an immediate closure of the runway.",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+  {
+    questionNumber: 52,
+    question: "How long can a FICON NOTAM be in effect?",
+    answer: "24 hours and may not reflect actual condition and braking action.",
+    category: ["calculate performance with TLR", "all-categories"],
+  },
+
+  {
+    questionNumber: 53,
+    question:
+      "What should a pilot do when they believe a NOTAM does not accurately reflect current conditions?",
+    answer:
+      "Consult the dispatcher, airport, or ATC to ascertain current runway information.",
+    category: ["calculate performance with TLR", "all-categories"],
   },
   {
     questionNumber: 33,
@@ -571,7 +743,8 @@ let questions = [
     questionNumber: 82,
     question:
       "Shortly after takeoff the cockpit starts filling with smoke. What do you do? (SMOKE EVACUATION memory item)",
-    answer: "OXYGEN MASKS ... DON, EMER; EMER CREW COMMUNICATION ... ESTABLISH",
+    answer:
+      "OXYGEN MASKS ... DON, EMER; EMER CREW COMMUNICATION ... ESTABLISH; PRESSURIZATION DUMP ... PUSH IN",
     category: ["memory-items", "all-categories"],
   },
   {
@@ -594,6 +767,20 @@ let questions = [
     question:
       "You're flying at cruise when the autopilot disconnects. After taking the controls, you realize the aileron controls are jammed. What do you do?",
     answer: "AILERON DISCONNECT HANDLE...PULL",
+    category: ["memory-items", "all-categories"],
+  },
+  {
+    questionNumber: 85,
+    question:
+      "You're flying at cruise when the autopilot disconnects. After taking the controls, you realize the elevator controls are jammed. What do you do?",
+    answer: "ELEVATOR DISCONNECT HANDLE...PULL",
+    category: ["memory-items", "all-categories"],
+  },
+  {
+    questionNumber: 85,
+    question:
+      "You're flying at cruise when the autopilot disconnects and the airplane starts yawing and banking to the right. You see on the EICAS that the YAW trim is deflecting to the right. What do you do? What if it was aileron trim?",
+    answer: "A/P DISC BUTTON ... PUSH AND HOLD --- SAME IF IT WAS AILERON",
     category: ["memory-items", "all-categories"],
   },
   {
@@ -669,7 +856,7 @@ let questions = [
     questionNumber: 95,
     question:
       "How many of the CRM issues that are included in nearly every Skywest ASAP report are a potentional results of task saturation?",
-    answer: "3 out of 4",
+    answer: "4 out of 5",
     category: ["fom-chap-3", "all-categories"],
   },
   {
